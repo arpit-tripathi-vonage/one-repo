@@ -5,3 +5,4 @@ plugins:
 title: Notes
 description: markdown notes
 show_downloads: false
+show_github_link: false
