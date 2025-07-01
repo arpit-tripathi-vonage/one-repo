@@ -14,4 +14,6 @@ git merge origin/main;
 - [mermaid](md/mermaid.md)
 
 
-- [gh](https://jackgruber.github.io/2021-05-09-Embed-Mermaid-in-Jekyll-without-plugin/){:target="_blank"}
+
+- Other GH
+  - [jackgruber](https://jackgruber.github.io/2021-05-09-Embed-Mermaid-in-Jekyll-without-plugin/){:target="_blank"}
