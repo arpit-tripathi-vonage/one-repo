@@ -10,14 +10,8 @@ git merge origin/main;
 ```
 
 - Build Tools : [jenkins](md/jenkins.md)
-- 
+- [Linux](md/linux.md)
+- [mermaid](md/mermaid.md)
 
-Here is a simple flow chart:
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+- [gh](https://jackgruber.github.io/2021-05-09-Embed-Mermaid-in-Jekyll-without-plugin/){:target="_blank"}
