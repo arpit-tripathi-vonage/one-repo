@@ -13,3 +13,7 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
   emoji: true
+  mermaid:
+    theme: default
+    flowchart:
+      curve: linear
