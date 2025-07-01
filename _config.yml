@@ -6,3 +6,10 @@ title: Notes
 description: markdown notes
 show_downloads: false
 show_github_link: false
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  emoji: true
