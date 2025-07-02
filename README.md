@@ -12,8 +12,8 @@ git merge origin/main;
 - [watch](watch.md)
 - Build Tools : [jenkins](md/jenkins.md)
 - [Linux](md/linux.md)
+- [Software Architecture Concepts](md/architecture/index.md)
 - [mermaid](md/mermaid.md)
-- 
 
 
 ## Other GH
