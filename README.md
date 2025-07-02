@@ -9,6 +9,7 @@ git fetch --all -p; git pull; git status;
 git merge origin/main;
 ```
 
+- [watch](watch.md)
 - Build Tools : [jenkins](md/jenkins.md)
 - [Linux](md/linux.md)
 - [mermaid](md/mermaid.md)
