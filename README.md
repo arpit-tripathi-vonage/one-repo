@@ -13,8 +13,9 @@ git merge origin/main;
 - Build Tools : [jenkins](md/jenkins.md)
 - [Linux](md/linux.md)
 - [mermaid](md/mermaid.md)
+- 
 
 
+## Other GH
 
-- Other GH
-  - [jackgruber](https://jackgruber.github.io/2021-05-09-Embed-Mermaid-in-Jekyll-without-plugin/){:target="_blank"}
+- [jackgruber](https://jackgruber.github.io/2021-05-09-Embed-Mermaid-in-Jekyll-without-plugin/){:target="_blank"}
