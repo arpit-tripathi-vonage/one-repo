@@ -1,14 +1,24 @@
 # Home Page
 
-- [watch](watch.md)
+
+- **Frontend**
+  - Html
+  - CSS
+  - Bootstrap
+  - VueJS
+- **Backend**
+  - Java
+  - Build Tool: gradle
+  - [Spring Framework](spring)
+  - JUnit - Junit 4 and Junit 5
 - [Devops](devops)
-  - Build Tools : [jenkins](md/jenkins.md)
-- [Linux](md/linux.md)
-- [Software Architecture Concepts](md/architecture/index.md)
-  - [Software Architecture Concepts](architecture)
-- [mermaid](md/mermaid.md)
+  - CI/CD tools : [jenkins](devops/jenkins)
+- [Linux](linux.md)
+- [Software Architecture Concepts](architecture)
+- [mermaid](mermaid.md)
 
 
 ## Other GH
 
 - [jackgruber](https://jackgruber.github.io/2021-05-09-Embed-Mermaid-in-Jekyll-without-plugin/){:target="_blank"}
+- [watch](watch.md)
