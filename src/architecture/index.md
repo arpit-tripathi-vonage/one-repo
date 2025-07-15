@@ -1,3 +1,7 @@
+---
+path: /architecture
+---
+
 # Software Architecture Concepts
 
 ## Event-Driven Architecture
