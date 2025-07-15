@@ -15,10 +15,10 @@
   - CI/CD tools : [jenkins](devops/jenkins)
 - [Linux](linux.md)
 - [Software Architecture Concepts](architecture)
-- [mermaid](mermaid.md)
 
 
 ## Other GH
 
-- [jackgruber](https://jackgruber.github.io/2021-05-09-Embed-Mermaid-in-Jekyll-without-plugin/){:target="_blank"}
 - [watch](watch.md)
+- [jackgruber](https://jackgruber.github.io/2021-05-09-Embed-Mermaid-in-Jekyll-without-plugin/){:target="_blank"}
+- [mermaid](mermaid.md)
