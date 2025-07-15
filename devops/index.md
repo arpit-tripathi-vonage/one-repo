@@ -1,5 +1,9 @@
 # Devops
 
+- TOC
+{:toc}
+---
+
 DevOps is a software development approach that emphasizes collaboration, automation, and continuous integration and delivery (CI/CD) to streamline the process of developing, testing, and deploying software.  
 
 It aims to break down the traditional silos between development and operations teams, fostering a culture of shared responsibility and faster, more reliable software releases. 
