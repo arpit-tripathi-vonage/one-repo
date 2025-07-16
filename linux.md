@@ -1,28 +1,46 @@
+---
+title: Linux
+---
+
+Linux
+===
+
 # Linux
 
-- [port in use](https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/){:target="_blank"}
+table of contents
+- TOC
+{:toc}
+
+---
+
+
+- Other opstions to see [port in use](https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/){:target="_blank"}
+
+# Linux OS version
+
+files in the `/etc` directory that end with `-release` typically contain information about the Linux distribution and version.
 
 ```sh
-# This command displays the contents of all files in the /etc directory that end with '-release'.
-# These files typically contain information about the Linux distribution and version.
 cat /etc/*-release
 ```
 
-```sh
-# socket statistics
-ss -tulpn | grep LISTEN
-```
+[![dir structure](https://miro.medium.com/v2/resize:fit:720/format:webp/0*bFnHaO8eYpW3dSuz)](https://blog.fourninecloud.com/linux-file-system-hierarchy-explained-1d80b2cee03c){:target="_blank"}
 
-<details>
-<summary>ss commands - socket statistics</summary>
+# socket statistics
 
 The ss command in Linux is used to display socket statistics.  
 It provides detailed information about network connections and sockets, including TCP, UDP, and Unix domain sockets.  
 It's a modern replacement for the netstat command and offers more features and performance.  
 
+```sh
+ss -tulpn | grep LISTEN
+```
+
+## ss commands
+
 Here's a breakdown of common ss commands and their uses:
 
-## Basic Usage:
+## Basic Usage
 ```sh
 ss: Displays all established socket connections.
 ss -l: Lists all listening sockets (sockets waiting for incoming connections).
@@ -35,7 +53,7 @@ ss -p: Show the process using the socket.
 ss -n: Show numerical addresses instead of resolving hostnames.
 ```
 
-## Filtering:
+## Filtering
 ```sh
 ss -o state established 'dport = :22': Displays all established TCP connections to port 22 (SSH).
 ss -o state fin-wait-1 '( sport = :http or sport = :https )' dst 193.233.7/24: Lists all TCP sockets in FIN-WAIT-1 state connected to the network 193.233.7/24 for HTTP and HTTPS.
@@ -45,7 +63,7 @@ ss -6: Displays IPv6 sockets in addition to IPv4.
 ss -4: Displays IPv4 sockets (this is the default if -6 is not specified).
 ```
 
-## Advanced Options:
+## Advanced Options
 ```sh
 ss -o: Displays timer information related to sockets, such as retransmission and keepalive values.
 ss -m: Displays socket memory usage.
@@ -57,10 +75,10 @@ ss -a -Z: Displays all TCP sockets with SELinux security contexts.
 ss -x src /tmp/.X11-unix/*: Finds all local processes connected to the X server. 
 ```
 
-## Installation:
+## Installation
 The ss command is usually pre-installed on most Linux distributions. If it's not, you can install it via iproute or iproute2 packages (e.g., sudo apt install iproute2 on Debian/Ubuntu systems). 
 
-</details>
+# Find
 
 ```sh
 find . -type f -name "*my-service*.log"
