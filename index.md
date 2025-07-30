@@ -15,7 +15,5 @@
 - [Linux](others/linux.md)
 - [Software Architecture Concepts](architecture)
 - [Artificial Intelligence (AI)](others/ai)
+- jekyll - [mermaid](others/mermaid)
 - [todo](todo)
-- [title](link){:target="_blank"}
-- jekyll
-  - [mermaid](others/mermaid)
