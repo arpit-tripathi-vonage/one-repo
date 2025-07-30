@@ -12,7 +12,8 @@
   - [Inside a Real High-Frequency Trading System - HFT Architecture](https://www.youtube.com/watch?v=iwRaNYa8yTw&t=7s){:target="_blank"}
   - [Design Spotify Top K Songs - System Design Interview](https://www.youtube.com/watch?v=HjazbLlrWxI){:target="_blank"}
 - Spring Framework
-  - [REST APIs Explained (in 5 minutes)](https://www.youtube.com/watch?v=09od8C-Fd-A)
+  - [REST APIs Explained (in 5 minutes)](https://www.youtube.com/watch?v=09od8C-Fd-A){:target="_blank"}
+  - [Understanding HTML Form Encoding: URL Encoded and Multipart Forms](https://dev.to/sidthesloth92/understanding-html-form-encoding-url-encoded-and-multipart-forms-3lpa){:target="_blank"}
   - Spring Security
     - [Authentication Explained: When to Use Basic, Bearer, OAuth2, JWT & SSO](https://www.youtube.com/watch?v=9JPnN1Z_iSY){:target="_blank"}
   - Spring Boot
@@ -23,6 +24,8 @@
   - [Microservice Communication Made Easy ! Feign Client in Spring Boot](https://www.youtube.com/watch?v=KiGE3QtyE1Y&t=159s){:target="_blank"}
 - Basics
   - [Git Mastery Crash Course - From First Commit to Big Tech Workflows](https://www.youtube.com/watch?v=HMoZ5cYzU4I&t=59s){:target="_blank"}
+- HTML
+  - [Web Components - mdn web docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_components){:target="_blank"}
 - CSS
   - [10 CSS PRO Tips and Tricks you NEED to know](https://www.youtube.com/watch?v=44FTAS-qT8Q){:target="_blank"}
   - [Animated Responsive Navbar with CSS - Plus Other Useful Tricks](https://www.youtube.com/watch?v=biOMz4puGt8){:target="_blank"}
