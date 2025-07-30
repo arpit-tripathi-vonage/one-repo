@@ -12,6 +12,7 @@
   - JUnit - Junit 4 and Junit 5
 - [Devops](devops)
   - CI/CD tools : [jenkins](devops/jenkins)
+  - [bash](others/bash)
 - [Linux](others/linux.md)
 - [Software Architecture Concepts](architecture)
 - [Artificial Intelligence (AI)](others/ai)

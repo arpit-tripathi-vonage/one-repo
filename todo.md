@@ -11,6 +11,7 @@
   - [System Design Interview – BIGGEST Mistakes to Avoid](https://www.youtube.com/watch?v=OvufRkoD-D0){:target="_blank"}
   - [Inside a Real High-Frequency Trading System - HFT Architecture](https://www.youtube.com/watch?v=iwRaNYa8yTw&t=7s){:target="_blank"}
   - [Design Spotify Top K Songs - System Design Interview](https://www.youtube.com/watch?v=HjazbLlrWxI){:target="_blank"}
+  - [How Netflix Uses Java - 2025 Edition](https://www.youtube.com/watch?v=XpunFFS-n8I){:target="_blank"}
 - Spring Framework
   - [REST APIs Explained (in 5 minutes)](https://www.youtube.com/watch?v=09od8C-Fd-A){:target="_blank"}
   - [Understanding HTML Form Encoding: URL Encoded and Multipart Forms](https://dev.to/sidthesloth92/understanding-html-form-encoding-url-encoded-and-multipart-forms-3lpa){:target="_blank"}
