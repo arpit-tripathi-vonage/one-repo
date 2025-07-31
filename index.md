@@ -17,4 +17,5 @@
 - [Software Architecture Concepts](architecture)
 - [Artificial Intelligence (AI)](others/ai)
 - jekyll - [mermaid](others/mermaid)
+- [Basics](others/basics)
 - [todo](todo)
