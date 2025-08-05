@@ -18,3 +18,4 @@
 - [Basics](others/basics)
 - [todo](todo)
   - [Cambridge](others/cambridge)
+  - [Schedule](others/schedule)
