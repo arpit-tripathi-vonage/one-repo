@@ -24,10 +24,7 @@ DevOps promotes a culture of collaboration, communication, and shared responsibi
 ## Tools
 DevOps relies on various tools to support its practices, such as: 
 - Version control systems (e.g., Git) 
-- CI/CD platforms (e.g., Jenkins, Azure DevOps) 
+- CI/CD platforms (e.g., [Jenkins](jenkins), Azure DevOps) 
 - Containerization technologies (e.g., Docker, Kubernetes) 
 - Configuration management tools (e.g., Ansible, Puppet) 
 - Monitoring and logging tools (e.g., Prometheus, Grafana) 
-
-Links
-- [Jenkins](jenkins)

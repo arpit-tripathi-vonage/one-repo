@@ -1,10 +1,8 @@
 # Home Page
 
 - **Frontend**
-  - Html
-  - CSS
-  - Bootstrap
-  - VueJS
+  - Core : Html, CSS, Bootstrap
+  - Framework: Vue3
 - **Backend**
   - Java
   - Build Tool: [gradle](backend/gradle)
@@ -19,3 +17,4 @@
 - jekyll - [mermaid](others/mermaid)
 - [Basics](others/basics)
 - [todo](todo)
+  - [Cambridge](others/cambridge)
