@@ -1,8 +1,9 @@
 # Home Page
 
 - **Frontend**
-  - Core : Html, CSS, Bootstrap
-  - Framework: Vue3
+  - Core : Html, [CSS](frontend/css), Bootstrap
+  - [typescript](frontend/typescript)
+  - Framework: [Vue3](frontend/vue)
 - **Backend**
   - Java
   - Build Tool: [gradle](backend/gradle)
