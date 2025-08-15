@@ -1,5 +1,7 @@
 # Home Page
 
+- **References**
+  - [Udemy](https://www.udemy.com/home/my-courses/learning/){:target="_blank"}
 - **Frontend**
   - Core : Html, [CSS](frontend/css), Bootstrap
   - [typescript](frontend/typescript)
@@ -20,3 +22,8 @@
 - [todo](todo)
   - [Cambridge](others/cambridge)
   - [Schedule](others/schedule)
+
+
+```
+emoji - cmd + ctrl + space
+```
