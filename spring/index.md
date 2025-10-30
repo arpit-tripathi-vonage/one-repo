@@ -11,3 +11,6 @@ Official site [here](https://spring.io/why-spring){:target="_blank"} with availa
 ---
 
 [Spring Security](./security)
+
+# Questions
+- How gradle puts things in the classpath for spring application?

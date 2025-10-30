@@ -18,7 +18,7 @@
 - [Software Architecture Concepts](architecture)
 - [Artificial Intelligence (AI)](others/ai)
 - jekyll - [mermaid](others/mermaid)
-- [Basics](others/basics)
+- [Basics](basics)
 - [todo](todo)
   - [Cambridge](others/cambridge)
   - [Schedule](others/schedule)
@@ -27,3 +27,6 @@
 ```
 emoji - cmd + ctrl + space
 ```
+
+- Pyenv vs pip vs pipx vs python3?
+- [Amazon EC2 instance port forwarding with AWS Systems Manager](https://aws.amazon.com/blogs/mt/amazon-ec2-instance-port-forwarding-with-aws-systems-manager/){:target="_blank"}

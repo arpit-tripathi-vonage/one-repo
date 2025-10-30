@@ -4,6 +4,11 @@
 - TOC
 {:toc}
 
+---
+
+- [Http](http)
+
+
 # Encoding vs Hashing vs Encryption
 
 ## Encoding
