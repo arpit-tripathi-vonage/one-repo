@@ -55,6 +55,34 @@ Other Usecases
 - Famous example from history - Caesar's Cipher/Shift Cipher
   - shift each alphabet by fixed position, say 3 (A -> D)
 
+
+# Encryption
+Essentially an art of hiding information
+
+- Hashing (SHA 2): 
+- Symmetric Encryption - Same key used for encryption and decryption of data (AES)
+- Asymmetric Encryption - Private key used for encryption, but public key used for decryption of data (RSA 256)
+
+## SHA 2
+Hashing is a one-way transformation
+SHA 256 - 256 bits
+- same input results in same output everytime
+- hashing used when you download software by using SHA 256 checksum
+- also used to save passsword in database instead of plain text
+- 
+
+# Symmetric Encryption - AES
+- components
+  - key
+  - IV (initialization vector) : makes sure every encryption looks different even if same key and message is used, usecase: messaging app in case someone sends same message twice
+  - Mode : AES works on chunks of data, mode decides how to handle messages longer than 1 block.
+    - CBC : Cyber Blockchaining - each block of data mixed with previous block to hide patterns
+    - EBC : encrypts each block separately, meaning identical plain text equals identical cipher text. Attackers can spot pattern easily so it's outdated and not used much.
+    - CTR : used in Network traffic
+    - GCM : popular for web encryption
+  - 
+
+
 # API Protocols Explained: When to Use HTTP, WebSockets, gRPC & More
 
 - [API Protocols Explained: When to Use HTTP, WebSockets, gRPC & More](https://www.youtube.com/watch?v=lcPcyNAEZgo){:target="_blank"}

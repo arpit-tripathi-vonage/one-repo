@@ -1,4 +1,4 @@
-# Spring Framework
+# Kafka
 
 Spring is a java framework that makes programming Java quicker, easier, and safer for everybody. Spring’s focus on speed, simplicity, and productivity.  
   
@@ -10,7 +10,11 @@ Official site [here](https://spring.io/why-spring){:target="_blank"} with availa
 
 ---
 
-[Spring Security](./security)
+# References
 
-# Questions
-- How gradle puts things in the classpath for spring application?
+- WIP
+  - [Why is Kafka Popular?](https://www.youtube.com/watch?v=7_wkWQ9rB5I)
+
+
+# Why is Kafka Popular?
+

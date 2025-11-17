@@ -9,11 +9,13 @@
 - **Backend**
   - Java
   - Build Tool: [gradle](backend/gradle)
-  - [Spring Framework](spring)
+  - [Spring Framework](backend/spring)
   - JUnit - Junit 4 and Junit 5
+  - [Kafka](backend/kafka)
 - [Devops](devops)
   - CI/CD tools : [jenkins](devops/jenkins)
   - [bash](others/bash)
+  - [docker](devops/docker)
 - [Linux](others/linux.md)
 - [Software Architecture Concepts](architecture)
 - [Artificial Intelligence (AI)](others/ai)
