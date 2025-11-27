@@ -21,6 +21,7 @@
 - [Artificial Intelligence (AI)](others/ai)
 - jekyll - [mermaid](others/mermaid)
 - [Basics](basics)
+- [Braintree Gateway](others/braintree)
 - [todo](todo)
   - [Cambridge](others/cambridge)
   - [Schedule](others/schedule)
