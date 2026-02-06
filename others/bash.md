@@ -1,8 +1,10 @@
----
-path: /bash
----
-
 # Bash Scripting
+
+***table of contents***
+- TOC
+{:toc}
+
+---
 
 - GUI - Graphical way to interact with computer programs, example - clicking icons etc.
 - CLI - a text-based way to interact with software and operating systems.
@@ -47,14 +49,14 @@ chmod +x analyse-logs.sh
 - `chmod` : change mode
 - `+x` : add execute permission
 
-# Shebang
+## Shebang
 all have `.sh` - how does os know if script is for bash, zsh or other shell implementation?  
 `#!` tells the shell script
 - `#!/bin/bash` for BASH scripts
 - `#!/bin/sh` for POSIX shell scripts
 
 
-# Variables
+## Variables
 
 ```bash
 LOG_DIR="/Users/arpit/logs"
@@ -68,14 +70,14 @@ grep -c "${ERROR_PATTERNS[0]}" "$APP_LOG_FILE"     # count of occurences after f
 echo -e "\nNew line added"          # prints \n as -e
 ```
 
-# Command Substitution
+## Command Substitution
 
 ```bash
 LOG_FILES=$(find $LOG_DIR -name "*.log" -mtime -1)
 echo $LOG_FILES
 ```
 
-# for Loops and if conditions
+## for Loops and if conditions
 
 ```bash
 LOG_DIR="/Users/arpit/logs"
@@ -114,7 +116,7 @@ done
 - `[*]` - expand all elements as one big string
 - `[@]` - expand each element as a separate word (used in for loops)
 
-# Redirection Operators `>` and `>>`
+## Redirection Operators `>` and `>>`
 
 - `>` : over-writes the cintent of file
 - `>>` : appends to file
