@@ -14,7 +14,7 @@ case $1 in
   start)
     echo docker compose up
     docker compose -f ./docker/docker-compose.yml up server -d
-    cmd=$( open -a "Google Chrome" http://localhost:9999/one-repo/ )
+    cmd=$( open -a "Google Chrome" http://localhost:9900/one-repo/ )
     echo opening chrome $cmd
     ;;
   stop)

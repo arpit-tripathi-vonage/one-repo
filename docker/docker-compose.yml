@@ -7,5 +7,5 @@ services:
     volumes:
       - '../.:/srv/jekyll' # relative path from this folder
     ports:
-      - 9999:4000 # (localhost port) => (docker port)
+      - 9900:4000 # (localhost port) => (docker port)
     command: sh "docker/docker-compose.sh"
