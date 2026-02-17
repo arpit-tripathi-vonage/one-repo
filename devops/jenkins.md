@@ -6,7 +6,7 @@
 Jenkins is an open source automation server.  
 It helps automate the parts of software development related to building, testing, and deploying.
 
-# get a property
+## get a property
 
 This happens because printenv shows environment variables, but in your build.gradle you are using System.getProperty('CI'), which reads Java system properties, not environment variables.
 
@@ -18,3 +18,8 @@ if (System.getenv('CI') == 'true') {
     // your logic here
 }
 ```
+
+## Http Request Plugin
+
+- [HTTP Request Plugin](https://www.jenkins.io/doc/pipeline/steps/http_request/#http-request-plugin){:target="_blank"}
+

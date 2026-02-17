@@ -10,14 +10,16 @@ Official site [here](https://spring.io/why-spring){:target="_blank"} with availa
 
 ---
 
-[Spring Security](./security)
+- [Spring Core](./core)
+- [Spring data](./data)
+- [Spring Security](./security)
 
-# Questions
+
+## Questions
 - How gradle puts things in the classpath for spring application?
 
 
-
-# servlet vs reactive
+## servlet vs reactive
 
 - Servlet is a traditional, blocking I/O model where a thread handles each request, while reactive is a non-blocking, event-driven model that uses an event loop to handle many concurrent requests with fewer threads. 
 - The reactive stack is more efficient for high-concurrency applications and I/O-bound tasks, whereas the servlet stack is simpler and still widely used for many applications, especially those with blocking dependencies.

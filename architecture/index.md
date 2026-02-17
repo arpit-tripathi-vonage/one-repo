@@ -1,5 +1,9 @@
 # Software Architecture Concepts
 
+## References
+- [Software Architecture Guide](https://www.martinfowler.com/architecture/){:target="_blank"}
+- [The Twelve Factors](https://12factor.net/){:target="_blank"}
+
 ## Event-Driven Architecture
 
 |Entity     |Description                                            |
