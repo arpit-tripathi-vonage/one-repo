@@ -1,0 +1,11 @@
+services:
+  server:
+    image: jekyll/jekyll:4.2.2
+    container_name: one-repo
+    environment:
+      MY_ENV_VAR_DUMMY: 'service_named_server'
+    volumes:
+      - '../.:/srv/jekyll' # relative path from this folder
+    ports:
+      - 9900:4000 # (localhost port) => (docker port)
+    command: sh "docker/docker-compose.sh"

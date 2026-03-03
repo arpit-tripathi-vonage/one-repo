@@ -1,0 +1,28 @@
+# Home Page
+
+- [References](others/references)
+- **Frontend**
+  - Core : Html, [CSS](frontend/css), Bootstrap
+  - [typescript](frontend/typescript)
+  - Framework: [Vue3](frontend/vue)
+- **Backend**
+  - Java
+  - Build Tool: [gradle](backend/gradle)
+  - [Spring Framework](backend/spring)
+  - JUnit - Junit 4 and Junit 5
+  - [Kafka](backend/kafka)
+- [Devops](devops)
+  - CI/CD tools : [jenkins](devops/jenkins)
+  - [bash](others/bash)
+  - [docker](devops/docker)
+  - [NGINX](devops/nginx)
+- [Linux](others/linux.md)
+- [Software Architecture Concepts](architecture)
+  - [AWS](./aws)
+- [Artificial Intelligence (AI)](ai)
+- jekyll - [mermaid](others/mermaid)
+- [Basics](basics)
+- [todo](todo)
+  - [Cambridge](others/cambridge)
+- emoji - `cmd + ctrl + space` here ():arrow_upper_right:)
+- [Learning while working](work)
