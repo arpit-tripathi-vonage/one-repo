@@ -51,6 +51,7 @@ How It Works
 ### propagation
 
 Controls how transactions relate to each other.
+
 |Value              | Behavior  |
 |-----              |-----      |
 |REQUIRED (default) | Join existing tx or create new one    |
@@ -65,6 +66,7 @@ In your code: SUPPORTS means the autoreload processor joins a tx if one exists, 
 
 ### isolation
 Controls visibility of data between concurrent transactions.
+
 |Value              | Behavior                      |
 |-----              |------                         |
 |DEFAULT (default)  | Use DB default                |
@@ -128,6 +130,7 @@ public class TransactionConfig {
 Adds descriptive labels for monitoring/tracing purposes.
 
 ### Important Caveats
-Only works on public methods
-Self-invocation bypasses the proxy (calling this.method() internally won't apply @Transactional)
-Class-level annotation applies as default to all methods; method-level overrides it
+- Only works on public methods
+- Self-invocation bypasses the proxy (calling this.method() internally won't apply @Transactional)
+- Class-level annotation applies as default to all methods; method-level overrides it
+
