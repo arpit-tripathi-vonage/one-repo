@@ -13,6 +13,7 @@ Official site [here](https://spring.io/why-spring){:target="_blank"} with availa
 - [Spring Core](./core)
 - [Spring data](./data)
 - [Spring Security](./security)
+- [Spring AI](./ai)
 
 
 ## Questions
