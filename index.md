@@ -6,7 +6,7 @@
   - [typescript](frontend/typescript)
   - Framework: [Vue3](frontend/vue)
 - **Backend**
-  - Java
+  - [Java](backend/java)
   - Build Tool: [gradle](backend/gradle)
   - [Spring Framework](backend/spring)
   - JUnit - Junit 4 and Junit 5
