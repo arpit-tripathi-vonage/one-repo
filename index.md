@@ -11,6 +11,7 @@
   - [Spring Framework](backend/spring)
   - JUnit - Junit 4 and Junit 5
   - [Kafka](backend/kafka)
+- [Authenticate & Authorization](backend/auth)
 - [Devops](devops)
   - CI/CD tools : [jenkins](devops/jenkins)
   - [bash](others/bash)
@@ -24,5 +25,5 @@
 - [Basics](basics)
 - [todo](todo)
   - [Cambridge](others/cambridge)
-- emoji - `cmd + ctrl + space` here ():arrow_upper_right:)
+- emoji - `cmd + ctrl + space` here (:arrow_upper_right:)
 - [Learning while working](work)
