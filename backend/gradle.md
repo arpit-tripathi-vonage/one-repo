@@ -13,7 +13,6 @@ It's designed to automate the entire software development lifecycle, handling ta
 # Installation
 Gradle can be installed via various methods, including downloading binaries or using package managers like SDKMAN!
 
-
 [gradle properties](https://docs.gradle.org/current/userguide/build_environment.html){:target="_blank"}
 
 # Dependency Configurations
@@ -42,3 +41,5 @@ Reference article [here](https://stackoverflow.com/questions/44493378/whats-the-
 **How to download javadocs and sources for jar using Gradle 2.0?**
 
 Reference article [here](https://stackoverflow.com/questions/28404149/how-to-download-javadocs-and-sources-for-jar-using-gradle-2-0){:target="_blank"}
+
+- [Building Java & JVM projects](https://docs.gradle.org/current/userguide/building_java_projects.html){:target="_blank"}

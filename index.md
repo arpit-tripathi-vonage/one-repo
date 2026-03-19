@@ -17,6 +17,7 @@
   - [bash](others/bash)
   - [docker](devops/docker)
   - [NGINX](devops/nginx)
+  - [Monitoring](devops/monitoring)
 - [Linux](others/linux.md)
 - [Software Architecture Concepts](architecture)
   - [AWS](./aws)

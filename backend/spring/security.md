@@ -91,4 +91,5 @@ OAuth2
 CORS and CSRF with spring security
 - enable CORS in spring backend
 - CSRF default on
-  
+
+

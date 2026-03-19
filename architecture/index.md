@@ -1,9 +1,16 @@
 # Software Architecture Concepts
 
+***table of contents***
+- TOC
+{:toc}
+
+---
+
 ## References
 - [Software Architecture Guide](https://www.martinfowler.com/architecture/){:target="_blank"}
 - [The Twelve Factors](https://12factor.net/){:target="_blank"}
 - [APIGW - Gloo Gateway Failover](https://docs.solo.io/gloo-edge/main/guides/gloo_federation/service_failover/){:target="_blank"}
+  - [Istio Virtual Service](https://istio.io/latest/docs/reference/config/networking/virtual-service/){:target="_blank"}
 
 ## Event-Driven Architecture
 
