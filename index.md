@@ -1,11 +1,16 @@
 # Home Page
 
 - [References](others/references)
-- **Frontend**
+
+**Artificial Intelligence (AI)**
+- [Overview](ai)
+
+**Frontend**
   - Core : Html, [CSS](frontend/css), Bootstrap
   - [typescript](frontend/typescript)
   - Framework: [Vue3](frontend/vue)
-- **Backend**
+
+**Backend**
   - [Java](backend/java)
   - Build Tool: [gradle](backend/gradle)
   - [Spring Framework](backend/spring)
@@ -21,7 +26,6 @@
 - [Linux](others/linux.md)
 - [Software Architecture Concepts](architecture)
   - [AWS](./aws)
-- [Artificial Intelligence (AI)](ai)
 - jekyll - [mermaid](others/mermaid)
 - [Basics](basics)
 - [todo](todo)
