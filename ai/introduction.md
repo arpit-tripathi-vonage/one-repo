@@ -14,7 +14,7 @@
 - NLP - Natural Language Processing : Enabling machines to understand, interpret and generate Human (Natural) Language.
 - OpenAI - 
 - GPT - Generative Pretrained Transformer
-- ChatGPT - 
+- ChatGPT - AI-powered conversational chatbot using OpenAI GPT models as LLM
 - RAG - 
 
 ## LLMs and their Evolution
@@ -24,15 +24,17 @@
 - Populat LLMs
   - GPT models by OpenAI
   - Gemini by Google
-  - Llama by Meta
   - Claude by Anthropic
+  - Llama by Meta
 - ChatGPT uses gpt-models of OpenAI behind the scenes
 
 ### Building Bloacks of LLM and NLP
 - Artificial Intelligence : computer systems designed to carry out tasks that normally need human intelligence
 - Machine Learning : Focuses on building algorithms that allow the system to learn by itself.
 - Deep Learning : Branch of ML focusing on algorithms that lead to Artificial Neural Networks. These excel inprocessing vast amount of data and are highly effective in tasks like image and speech recognition, as well as NLP
-- GPT (Generative Pretrained Transformer) : Based on Transformer Architecture.
+- GPT (Generative Pretrained Transformer) : Based on Transformer Architecture, Uses attention mechanism to understand
+
+![Image](https://www.researchgate.net/publication/373797588/figure/fig1/AS:11431281390168704@1745252497113/A-comparative-view-of-AI-machine-learning-deep-learning-and-generative-AI-source.tif)
 
 ### Evolution
 - n-grams
@@ -64,7 +66,7 @@
 
 ### Challenges
 - Bias and Fairness
-- Ethical Concerns - Deepfakes
+- Ethical Concerns - Fake news, Deepfakes
 - Lack of Explainability - Industries like Legal, Medical or Financial
 - Depends in Data Quality - Outdated data, biased data
 - Knowledge CutOff
@@ -73,6 +75,18 @@
 > !NOTE
 > 
 > Developers can now use the power of NLP to build many different kinds of applications
+
+### AI applications using LLM
+
+- Customer support and Chatbots
+- Document Automation
+- HR and Recruitment
+- Healthcare
+- Finance
+- IT and DevOps
+- Travel education and Training
+
+
 
 ## Prompt Engineering for Genrative AI
 

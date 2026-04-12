@@ -1,9 +1,13 @@
 # Home Page
 
-- [References](others/references)
-
-**Artificial Intelligence (AI)**
-- [Overview](ai)
+**Senior Dev**
+- System Designs & Architecture
+  - [Distributed Systems](distributed-systems)
+  - [Software Architecture Patterns and Antipatterns](architecture-patterns)
+  - [Microservices](microservices)
+  - [System Design](system-designs)
+- [Quantum Computing](quantum-computing)
+- [Artificial Intelligence (AI)](ai/index)
 
 **Frontend**
   - Core : Html, [CSS](frontend/css), Bootstrap
@@ -26,9 +30,10 @@
 - [Linux](others/linux.md)
 - [Software Architecture Concepts](architecture)
   - [AWS](./aws)
-- jekyll - [mermaid](others/mermaid)
 - [Basics](basics)
-- [todo](todo)
+- Others
   - [Cambridge](others/cambridge)
 - emoji - `cmd + ctrl + space` here (:arrow_upper_right:)
 - [Learning while working](work)
+- [todo](todo)
+- [References](others/references)
