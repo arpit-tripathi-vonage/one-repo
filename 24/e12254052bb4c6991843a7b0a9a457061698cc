@@ -1,0 +1,24 @@
+index.md
+  h_076573b8444013 4
+ai/github-copilot.md
+  h_80b2e83d1ae390 1-22
+ai/ai-learning-coach.md
+  h_076573b8444013 1-31
+ai/index.md
+  h_80b2e83d1ae390 22,60-97
+  h_076573b8444013 19,23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "24e12254052bb4c6991843a7b0a9a457061698cc",
+  "prompts": {},
+  "humans": {
+    "h_076573b8444013": {
+      "author": "Arpit Tripathi <arpit.tripathi@vonage.com>"
+    },
+    "h_80b2e83d1ae390": {
+      "author": "Arpit Tripathi"
+    }
+  }
+}
