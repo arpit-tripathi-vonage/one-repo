@@ -1,13 +1,13 @@
 # Home Page
 
 **Senior Dev**
+- [Artificial Intelligence (AI)](ai/index)
 - System Designs & Architecture
   - [Distributed Systems](distributed-systems)
   - [Software Architecture Patterns and Antipatterns](architecture-patterns)
   - [Microservices](microservices)
   - [System Design](system-designs)
 - [Quantum Computing](quantum-computing)
-- [Artificial Intelligence (AI)](ai/index)
 
 **Frontend**
   - Core : Html, [CSS](frontend/css), Bootstrap
