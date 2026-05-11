@@ -1,94 +1,97 @@
 # Artificial Intelligence (AI)
 
-***table of contents***
+<!-- <details markdown="1" open="1"> -->
+<details markdown="1">
+  <summary>table of contents</summary>
+
+---
+
 - TOC
 {:toc}
 
 ---
+</details>
+
+<br/>
+
+## Topics
+- [Introduction](introduction)
+- [Using AI as Personal Learning Coach](ai-learning-coach)
+- [Claude](claude)
+- [MCP](mcp)
+- [GitHub Copilot](github-copilot)
+- [OpenCode and GitAI](opencode)
+- Comparisions
+  
 
 ## References
 
-- [Harvard CS50’s Artificial Intelligence with Python – Full University Course](https://www.youtube.com/watch?v=5NgNicANyqM){:target="_blank"}
-- [All Machine Learning algorithms explained in 17 min]([link](https://www.youtube.com/watch?v=E0Hmnixke2g)){:target="_blank"}
-- [How JP Morgan Built An AI Agent for Investment Research with LangGraph - LangChain Interrupt](https://www.youtube.com/watch?v=yMalr0jiOAc){:target="_blank"}
-- O'Reilly
-  - [Build AI Apps with Spring AI, OpenAI, Ollama & SpringBoot](https://learning.oreilly.com/course/build-ai-apps/9781806704132/)
+- Text
+  - [Agent Skills Vs MCP Vs Prompts Vs Projects Vs Subagents :A Comparative Analysis](https://medium.com/@tahirbalarabe2/agent-skills-vs-mcp-vs-prompts-vs-projects-vs-subagents-a-comparative-analysis-7a36cd85cb74){:target="_blank"}
+- Video
+  - [Harvard CS50’s Artificial Intelligence with Python – Full University Course](https://www.youtube.com/watch?v=5NgNicANyqM){:target="_blank"}
+  - [All Machine Learning algorithms explained in 17 min](https://www.youtube.com/watch?v=E0Hmnixke2g){:target="_blank"}
+  - [How JP Morgan Built An AI Agent for Investment Research with LangGraph - LangChain Interrupt](https://www.youtube.com/watch?v=yMalr0jiOAc){:target="_blank"}
+  
 
-# AI for Java Developers
+# Current WIP
 
+- O'Reilly `Build AI Apps with Spring AI, OpenAI, Ollama & SpringBoot` [here](https://learning.oreilly.com/course/build-ai-apps/9781806704132/){:target="_blank"}
+
+## Why AI for Java Developers?
+
+- Industry-wide AI Adoption?
+  - Retail
+  - Healthcare
+  - etc
 - Enhance Problem Solving Abilities
+- Stay Competitive in the Job Market
 
 
-## Glossary of Terms
+### Items Covered
+- Intro to LLM OpenAPI ChatGPT
+- Chat based AI apps using OpenAI APIs
+- Prompt Engineering
+- Generate Structured Data with OpenAI
+- Function Calling using Tools with OpenAI
+- RAG Based Q&A
+- Multimodality : Images, Vision and Audio with OpenAI
+- Run LLMs locally and build AI apps interact with them.
 
-- LLM - Large Language Models
-- NLP - Natural Language Processing : Enabling machines to understand, interpret and generate Human (Natural) Language.
-- OpenAI - 
-- GPT - Generative Pretrained Transformer
-- ChatGPT - 
-- RAG - 
+## Spring AI
 
-## LLMs and their Evolution
+- Module for building applications using LLM for easy AI integration into Spring Framework
+- Builds Enterprise-Grade AI applications
+- spring-ai docs [here](https://docs.spring.io/spring-ai/reference/index.html){:target="_blank"}
 
-- Large Language Model is a type of AI designed to understand, generate, and summarize human-like text by analyzing massive datasets using deep learning, specifically transformer architectures.
-- LLMs work by predicting the next word in a sequence based on prompt context, enabling tasks like chatbot interaction, translation, and code generation.
-- Populat LLMs
-  - GPT models by OpenAI
-  - Gemini by Google
-  - Llama by Meta
-  - Claude by Anthropic
-- ChatGPT uses gpt-models of OpenAI behind the scenes
+## Using OpenAI with spring-ai
 
-### Building Bloacks of LLM and NLP
-- Artificial Intelligence : computer systems designed to carry out tasks that normally need human intelligence
-- Machine Learning : Focuses on building algorithms that allow the system to learn by itself.
-- Deep Learning : Branch of ML focusing on algorithms that lead to Artificial Neural Networks. These excel inprocessing vast amount of data and are highly effective in tasks like image and speech recognition, as well as NLP
-- GPT (Generative Pretrained Transformer) : Based on Transformer Architecture.
+- Account Setup
+  - Create [OpenAI account](https://openai.com/){:target="_blank"}
+  - create APIkey and store it as env variable
+  - check the playground and do compare by asking same question - `What is an LLM?`
+    - 4o vs 4o-mini
+    - 4o gives options
+    - 4o-mini assumed we asked for Large Language Model
+- Install Java 24 using sdkman `sdk list java` and `sdk install java 24.0.1-tem`
+- clone instructor's project [here](https://github.com/dilipsundarraj1/spring-ai){:target="_blank"}
+- `org.springframework.ai:spring-ai-starter-model-openai` and property `spring.ai.openai.api-key=${OPENAI_KEY}`
+- ChatClient calls internally OpenAI chat completion endpoint [here](https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create){:target="_blank"}
+- Promt, Tokens and Tokenizations
+  - `user prompt -> tokenizations -> Processing using Transformer Architecture -> Generate Tokens -> De-tokenization -> output`
+- importatnt params - `temprature` (lower is more relvant response), `max_completion_tokens`
+- Prompt - `User Message` + `System Message` + `Assistant Message`
+  - system message like *SystemMessage("You are a helpful assistant, who can answer java based questions. For any other questions, please respond with I don't know in a funny way!");
+- Streaming ChatClient response (Async - Non blocking) using Flux in response instead of sync response Object
+- conversation - What's my name return don't know an
 
-### Evolution
-- n-grams
-- Neural Language Models (RNNs and LSTM)
-- Transformer Architecture
-- LLMs (GPTs)
+```java
+ChatClient.builder().build()
+.prompt()
+.user(userInput.prompt())
+.system(systemMessage)
+.call()
+.content()
+```
 
-### Popular LLM Models
-- Properiatary/Closed Source Models : 
-  - Not available for public download or modification
-  - Paid services accessed through API calls
-  - Examples
-    - OpenAI - GPT
-    - Gemini by Google
-    - Claude by Anthropic
-- Open Source Models : 
-  - Free available for Public
-  - Examples
-    - LLaMA by Meta
-    - Mistral by MistralAI
-
-![How-Are-LLMs-Trained.jpg](https://www.youngurbanproject.com/wp-content/uploads/2025/01/How-Are-LLMs-Trained.jpg){:width="400px"}|[![How large is an LLM?](https://microsoft.github.io/Workshop-Interact-with-OpenAI-models/assets/images/llm-001-da6e9df83e520a18f43984ad5118b9a7.png){:width="600px"}](https://microsoft.github.io/Workshop-Interact-with-OpenAI-models/llms/){:target="_blank"}
-
-### Advantages
-- Multilingual Capabilities
-- Creativity and Content Generation
-- Automation of Complex Task
-- Rapid Prototyping
-
-### Challenges
-- Bias and Fairness
-- Ethical Concerns - Deepfakes
-- Lack of Explainability - Industries like Legal, Medical or Financial
-- Depends in Data Quality - Outdated data, biased data
-- Knowledge CutOff
-- Hallucination
-
-> !NOTE
-> 
-> Developers can now use the power of NLP to build many different kinds of applications
-
-## Prompt Engineering for Genrative AI
-
-![LLM Prompt Cycle - PromptEngineering](https://promptengineering.org/content/images/size/w1000/2023/08/Prompt-engineering---Large-Language-Model-LLM--Basic-LLM-Prompt-Cycle--PromptEngineering.org.jpg){:width="500px"}
-
-## LLM Safety Guide
-
-[![](https://images.ctfassets.net/otwaplf7zuwf/4RNUq2ojMRbubXXWyfilMF/55a7551842db56a774750c9201ed364a/image.png){:width="500px"}](https://www.confident-ai.com/blog/the-comprehensive-llm-safety-guide-navigate-ai-regulations-and-best-practices-for-llm-safety)|![](https://images.ctfassets.net/otwaplf7zuwf/3EJUSvZYzUly4cYy2huH1p/74eafd8eaaa48999d772be60c7c314d8/image.png){:width="500px"}
+- SpringAdvisors
