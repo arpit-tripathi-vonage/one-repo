@@ -1,0 +1,24 @@
+oreilly.md
+  h_076573b8444013 1-82
+ai/ai-learning-coach.md
+  h_076573b8444013 19,29-39
+ai/index.md
+  h_076573b8444013 17-24
+ai/skill-plan-ai-agents.md
+  h_076573b8444013 1-24
+index.md
+  h_076573b8444013 4
+ai/spring-ai.md
+  h_076573b8444013 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8af9fab338b1bf28e9e6977f00dc39f64d67056f",
+  "prompts": {},
+  "humans": {
+    "h_076573b8444013": {
+      "author": "Arpit Tripathi <arpit.tripathi@vonage.com>"
+    }
+  }
+}
