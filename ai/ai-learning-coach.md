@@ -16,11 +16,9 @@
 
 ## References
 
-- Oreilly Course on using [AI as Your Personal Learning Coach](https://learning.oreilly.com/live-events/ai-as-your-personal-learning-coach/0642572247041/){:target="_blank"}
+- Oreilly - [AI as Your Personal Learning Coach](https://learning.oreilly.com/live-events/ai-as-your-personal-learning-coach/0642572247041/){:target="_blank"}
 
 ## Introduction
-
-
 
 Available AI Tools
 - Chat GPT
@@ -28,4 +26,14 @@ Available AI Tools
 - Microsoft Copilot
 - Claude
 - Perplexity
-- NotebookLM
+- Google NotebookLM
+
+```
+Plan to Learn AI using Atomic Habits
+```
+
+## Custom GPT
+
+- Chat GPT > Explore GPTs > This will show custom GPTs
+- Example : Coloring Book Hero
+- 

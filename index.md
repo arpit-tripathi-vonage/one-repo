@@ -1,6 +1,7 @@
 # Home Page
 
 **Senior Dev**
+- [Oreilly](oreilly)
 - [Artificial Intelligence (AI)](ai/index)
 - System Designs & Architecture
   - [Distributed Systems](distributed-systems)
