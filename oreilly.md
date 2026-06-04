@@ -21,6 +21,7 @@
   - [Claude Architect Foundations](https://learning.oreilly.com/live-events/claude-architect-foundations/0642572369958/0642572369941/){:target="_blank"}
 - [Spring AI](https://learning.oreilly.com/live-events/spring-ai/0790145045396/0642572311711/){:target="_blank"}
 - GitHub Copilot
+  - [GitHub Copilot Complete Guide for Developers](https://learning.oreilly.com/course/github-copilot-complete/9781806380695/){:target="_blank"}
   - [GitHub Copilot Certification Crash Course](https://learning.oreilly.com/live-events/github-copilot-certification-crash-course/0642572013405/0642572324308/){:target="_blank"}
   - [GitHub Copilot for Developers](https://learning.oreilly.com/live-events/github-copilot-for-developers/0636920094356/0642572326647/){:target="_blank"}
   - [GitHub Copilot for Software Engineers](https://learning.oreilly.com/live-events/github-copilot-for-software-engineers/0642572005219/0642572328368/){:target="_blank"}
@@ -73,9 +74,9 @@ At a high level, Software Architecture defines the blueprint and structural boun
 
 ## Growth
 
-- [AI as Your Personal Learning Coach](https://learning.oreilly.com/live-events/ai-as-your-personal-learning-coach/0642572247041/0642572332761/){:target="_blank"}
-- [Developing a Growth Mindset](https://learning.oreilly.com/live-events/developing-a-growth-mindset/0642572002316/0642572345426/){:target="_blank"}
-- [Fundamentals of Learning: Learn faster and better using neuroscience](https://learning.oreilly.com/live-events/fundamentals-of-learning-learn-faster-and-better-using-neuroscience/0636920064594/0642572322496/){:target="_blank"}
+- ~~[AI as Your Personal Learning Coach](https://learning.oreilly.com/live-events/ai-as-your-personal-learning-coach/0642572247041/0642572332761/){:target="_blank"}~~
+- ~~[Developing a Growth Mindset](https://learning.oreilly.com/live-events/developing-a-growth-mindset/0642572002316/0642572345426/){:target="_blank"}~~
+- ~~[Fundamentals of Learning: Learn faster and better using neuroscience](https://learning.oreilly.com/live-events/fundamentals-of-learning-learn-faster-and-better-using-neuroscience/0636920064594/0642572322496/){:target="_blank"}~~
 - [Using Generative AI to Land Your Next Job](https://learning.oreilly.com/live-events/using-generative-ai-to-land-your-next-job/0790145067802/0642572323127/){:target="_blank"}
 - [Coding Interview Bootcamp](https://learning.oreilly.com/live-events/coding-interview-bootcamp/0636920089572/0642572329631/){:target="_blank"}
 - [Generative AI Interviews](https://learning.oreilly.com/live-events/generative-ai-interviews/0636920095524/0642572330910/){:target="_blank"}

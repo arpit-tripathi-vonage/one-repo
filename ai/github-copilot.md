@@ -1,6 +1,9 @@
 # Github Copilot
 
-Oreilly Course on [GitHub Copilot Complete Guide for Developers](https://learning.oreilly.com/course/github-copilot-complete/9781806380695/){:target="_blank"}
+AI coding assistant
+
+Based in Oreilly courses
+- [GitHub Copilot Complete Guide for Developers](https://learning.oreilly.com/course/github-copilot-complete/9781806380695/){:target="_blank"}
 
 <details markdown="1">
   <summary>table of contents</summary>
