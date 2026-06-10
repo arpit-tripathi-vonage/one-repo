@@ -17,6 +17,7 @@
 ## Notes for Oreilly Courses
 
 - [Using AI as Personal Learning Coach](../growth/ai-learning-coach)
+- [vonage-learning](vonage-learning)
 - [GitHub Copilot](github-copilot)
 - [Skills Plan: AI Agents](skill-plan-ai-agents)
 - [Spring AI](spring-ai)
