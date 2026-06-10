@@ -1,0 +1,18 @@
+ai/claude.md
+  h_076573b8444013 11
+ai/index.md
+  h_076573b8444013 20
+ai/vonage-learning.md
+  h_076573b8444013 1-96
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "826850b22a5e0eb9cd0384594b2b4ba95a550032",
+  "prompts": {},
+  "humans": {
+    "h_076573b8444013": {
+      "author": "Arpit Tripathi <arpit.tripathi@vonage.com>"
+    }
+  }
+}
