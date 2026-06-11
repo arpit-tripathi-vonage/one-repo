@@ -14,12 +14,16 @@
 
 <br/>
 
-## Topics
-- [Introduction](introduction)
-- [Using AI as Personal Learning Coach](ai-learning-coach)
+## Notes for Oreilly Courses
+
+- [Using AI as Personal Learning Coach](../growth/ai-learning-coach)
+- [vonage-learning](vonage-learning)
+- [GitHub Copilot](github-copilot)
+- [Skills Plan: AI Agents](skill-plan-ai-agents)
+- [Spring AI](spring-ai)
+  - [Introduction](introduction)
 - [Claude](claude)
 - [MCP](mcp)
-- [GitHub Copilot](github-copilot)
 - [OpenCode and GitAI](opencode)
 - Comparisions
   
@@ -32,11 +36,6 @@
   - [Harvard CS50’s Artificial Intelligence with Python – Full University Course](https://www.youtube.com/watch?v=5NgNicANyqM){:target="_blank"}
   - [All Machine Learning algorithms explained in 17 min](https://www.youtube.com/watch?v=E0Hmnixke2g){:target="_blank"}
   - [How JP Morgan Built An AI Agent for Investment Research with LangGraph - LangChain Interrupt](https://www.youtube.com/watch?v=yMalr0jiOAc){:target="_blank"}
-  
-
-# Current WIP
-
-- O'Reilly `Build AI Apps with Spring AI, OpenAI, Ollama & SpringBoot` [here](https://learning.oreilly.com/course/build-ai-apps/9781806704132/){:target="_blank"}
 
 ## Why AI for Java Developers?
 
